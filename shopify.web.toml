@@ -4,4 +4,4 @@ webhooks_path = "/webhooks/app/uninstalled"
 
 [commands]
 predev = "npx drizzle-kit generate"
-dev = "npx drizzle-kit migrate deploy && pnpm exec vite:dev"
+dev = "npx drizzle-kit migrate && bun run dev"
